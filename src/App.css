@@ -7,6 +7,11 @@
   height: 5rem;
 }
 
+.about {
+  background-color: #282c34;
+  height: 100vh;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
