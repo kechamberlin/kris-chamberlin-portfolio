@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Projects from './components/Projects';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className='App'>
       <Navbar />
       <About />
+      <Projects />
       {/* <header className='App-header'>Kris Chamberlin's Portfolio</header> */}
     </div>
   );
