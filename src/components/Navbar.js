@@ -2,9 +2,13 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <div className='navbar'>
-      <p>Navbar</p>
-    </div>
+    <nav className='navbar'>
+      <h1>Kris Chamberlin</h1>
+      <ul>
+        <li>About</li>
+        <li>Projects</li>
+      </ul>
+    </nav>
   );
 }
 
