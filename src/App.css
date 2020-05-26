@@ -7,6 +7,10 @@
   height: 5rem;
 }
 
+.germania-font {
+  font-family: 'Germania One', cursive;
+}
+
 .about {
   background-color: #282c34;
   height: 100vh;
@@ -51,7 +55,6 @@
     transform: rotate(360deg);
   }
 } */
-
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -467,4 +470,3 @@ table th {
     justify-content: center;
   }
 }
-
