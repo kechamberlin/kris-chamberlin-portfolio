@@ -9,6 +9,13 @@
 
 .germania-font {
   font-family: 'Germania One', cursive;
+  font-size: 60px;
+  background: linear-gradient(to top, #ff8a00, #da1b60);
+  background-image: linear-gradient(
+    linear-gradient(to top, rgb(255, 138, 0), rgb(218, 27, 96))
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about {
