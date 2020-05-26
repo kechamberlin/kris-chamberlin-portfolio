@@ -6,8 +6,30 @@ function Navbar() {
     <nav className='navbar'>
       <div className='germania-font'>Kris Chamberlin</div>
       <ul>
-        <li>About</li>
-        <li>Projects</li>
+        <li>
+          <Link
+            activeClass='active'
+            to='about'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass='active'
+            to='projects'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Projects
+          </Link>
+        </li>
       </ul>
     </nav>
   );
