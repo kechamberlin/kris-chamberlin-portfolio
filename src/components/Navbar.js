@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
-function Navbar() {
+function MyNavbar() {
   function scrollToTop() {
     scroll.scrollToTop();
   }
 
   return (
-    <nav className='navbar'>
+    <nav className='my-navbar'>
       <div onClick={scrollToTop} className='germania-font'>
         Kris Chamberlin
       </div>
@@ -41,4 +41,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default MyNavbar;
