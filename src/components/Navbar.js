@@ -2,9 +2,15 @@ import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 function Navbar() {
+  function scrollToTop() {
+    scroll.scrollToTop();
+  }
+
   return (
     <nav className='navbar'>
-      <div className='germania-font'>Kris Chamberlin</div>
+      <div onClick={scrollToTop} className='germania-font'>
+        Kris Chamberlin
+      </div>
       <ul>
         <li>
           <Link
