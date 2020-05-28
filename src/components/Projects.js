@@ -14,35 +14,43 @@ function Projects() {
         <Row>
           <Col lg={6}>
             <Card className='text-center'>
-              <Card.Img
-                variant='top'
-                src={Law}
-                // href='https://kechamberlin.github.io/ag-law/'
-              />
+              <a
+                href='https://kechamberlin.github.io/ag-law/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Card.Img variant='top' src={Law} />
+              </a>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>AG Law</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Card.Link href='#'>Card Link</Card.Link>
+                <Card.Link href='https://github.com/kechamberlin/ag-law'>
+                  GitHub Repository
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
           <Col lg={6}>
             <Card className='text-center'>
-              <Card.Img
-                variant='top'
-                src={Gig}
-                // href='https://kechamberlin.github.io/gig-dig/'
-              />
+              <a
+                href='https://kechamberlin.github.io/gig-dig/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Card.Img variant='top' src={Gig} />
+              </a>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>GigDig</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Card.Link href='#'>Card Link</Card.Link>
+                <Card.Link href='https://github.com/kechamberlin/gig-dig'>
+                  GitHub Repository
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
