@@ -4,7 +4,6 @@
 
 .my-navbar {
   background-color: black;
-  height: 5rem;
 }
 
 .germania-font {
@@ -21,12 +20,10 @@
 
 .about {
   background-color: #282c34;
-  height: 100vh;
 }
 
 .projects {
   background-color: blue;
-  height: 100vh;
 }
 
 /* .App-logo {
