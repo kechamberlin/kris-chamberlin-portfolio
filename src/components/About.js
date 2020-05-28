@@ -18,7 +18,8 @@ function About() {
               className='text-center'
               style={{
                 color: 'black',
-                backgroundColor: 'gray'
+                backgroundColor: 'gray',
+                border: 'solid red'
               }}
             >
               <Card.Body>
@@ -29,9 +30,16 @@ function About() {
                   style={{ height: '15rem', width: '15rem' }}
                 />
                 <Card.Title>Front-End Web Developer</Card.Title>
-                <Card.Text>Irvine, California</Card.Text>
-                <Card.Text>kris.elliott.chamberlin@gmail.com</Card.Text>
+                <Card.Text>
+                  <strong>Location:</strong> Irvine, California
+                </Card.Text>
+                <Card.Text>
+                  <strong>Email:</strong> kris.elliott.chamberlin@gmail.com
+                </Card.Text>
                 <Button
+                  style={{
+                    background: 'linear-gradient(to top, #ff8a00, #da1b60)'
+                  }}
                   href='https://www.linkedin.com/in/kris-chamberlin/'
                   target='_blank'
                   variant='danger'
@@ -39,6 +47,9 @@ function About() {
                   LinkedIn
                 </Button>
                 <Button
+                  style={{
+                    background: 'linear-gradient(to top, #ff8a00, #da1b60)'
+                  }}
                   href='https://github.com/kechamberlin'
                   target='_blank'
                   variant='danger'
@@ -51,7 +62,11 @@ function About() {
           <Col lg={8}>
             <Card
               className='text-center'
-              style={{ color: 'black', backgroundColor: 'gray' }}
+              style={{
+                color: 'black',
+                backgroundColor: 'gray',
+                border: 'solid red'
+              }}
             >
               <Card.Body>
                 <Card.Title>About Me</Card.Title>
