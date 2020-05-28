@@ -68,11 +68,13 @@ function About() {
                   memories with my girlfriend Aleah.
                 </Card.Text>
                 <Card.Title>Skills</Card.Title>
-                <Badge variant='danger'>React</Badge>
-                <Badge variant='danger'>React</Badge>
-                <Badge variant='danger'>React</Badge>
-                <Badge variant='danger'>React</Badge>
-                <Badge variant='danger'>React</Badge>
+                <h4>
+                  <Badge variant='danger'>React</Badge>
+                  <Badge variant='danger'>React</Badge>
+                  <Badge variant='danger'>React</Badge>
+                  <Badge variant='danger'>React</Badge>
+                  <Badge variant='danger'>React</Badge>
+                </h4>
               </Card.Body>
             </Card>
           </Col>
