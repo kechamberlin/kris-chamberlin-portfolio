@@ -8,7 +8,7 @@ function MyNavbar() {
 
   return (
     <nav className='my-navbar'>
-      <div onClick={scrollToTop} className='germania-font'>
+      <div onClick={scrollToTop} className='germania-font cursor'>
         Kris Chamberlin
       </div>
       <ul>
