@@ -3,7 +3,7 @@
 }
 
 .my-navbar {
-  background-color: black;
+  background-color: rgb(17, 10, 14);
 }
 
 .germania-font {
@@ -19,7 +19,7 @@
 }
 
 .about {
-  background-color: #282c34;
+  background-color: rgb(17, 10, 14);
   padding: 3rem;
 }
 
@@ -421,7 +421,6 @@ table th {
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
-  opacity: 0.9;
 }
 
 .my-navbar ul {
