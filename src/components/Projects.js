@@ -3,16 +3,22 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Law from '../images/ag-law-screenshot.png';
+import Gig from '../images/gig-dig-screenshot.png';
 
 function Projects() {
   return (
     <div className='projects'>
-      <p>Projects</p>
+      <div className='germania-font'>Projects</div>
       <Container>
         <Row>
           <Col lg={6}>
             <Card className='text-center'>
-              <Card.Img variant='top' src='holder.js/100px180' />
+              <Card.Img
+                variant='top'
+                src={Law}
+                // href='https://kechamberlin.github.io/ag-law/'
+              />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -25,7 +31,11 @@ function Projects() {
           </Col>
           <Col lg={6}>
             <Card className='text-center'>
-              <Card.Img variant='top' src='holder.js/100px180' />
+              <Card.Img
+                variant='top'
+                src={Gig}
+                // href='https://kechamberlin.github.io/gig-dig/'
+              />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
