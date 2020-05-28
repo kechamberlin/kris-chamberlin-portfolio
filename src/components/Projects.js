@@ -27,7 +27,11 @@ function Projects() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Card.Link href='https://github.com/kechamberlin/ag-law'>
+                <Card.Link
+                  href='https://github.com/kechamberlin/ag-law'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   GitHub Repository
                 </Card.Link>
               </Card.Body>
@@ -48,7 +52,11 @@ function Projects() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Card.Link href='https://github.com/kechamberlin/gig-dig'>
+                <Card.Link
+                  href='https://github.com/kechamberlin/gig-dig'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   GitHub Repository
                 </Card.Link>
               </Card.Body>
