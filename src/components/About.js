@@ -18,8 +18,8 @@ function About() {
             <Card
               className='text-center'
               style={{
-                color: 'black',
-                backgroundColor: 'gray',
+                color: 'white',
+                backgroundColor: '#333333',
                 border: 'solid orangered'
               }}
             >
@@ -65,13 +65,13 @@ function About() {
             <Card
               className='text-center'
               style={{
-                color: 'black',
-                backgroundColor: 'gray',
+                color: 'white',
+                backgroundColor: '#333333',
                 border: 'solid orangered'
               }}
             >
               <Card.Body>
-                <Card.Title>About Me</Card.Title>
+                <Card.Title className='germania-font'><h1>About Me</h1> </Card.Title>
                 <Card.Text>
                   After graduating Magna Cum Laude with a History degree from
                   the University of California, Santa Barbara, I decided to
