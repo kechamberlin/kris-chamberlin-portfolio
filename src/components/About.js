@@ -71,7 +71,9 @@ function About() {
               }}
             >
               <Card.Body>
-                <Card.Title className='germania-font'><h1>About Me</h1> </Card.Title>
+                <Card.Title className='germania-font'>
+                  <h1>About Me</h1>
+                </Card.Title>
                 <Card.Text>
                   After graduating Magna Cum Laude with a History degree from
                   the University of California, Santa Barbara, I decided to
