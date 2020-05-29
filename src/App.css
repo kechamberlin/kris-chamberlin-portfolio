@@ -31,6 +31,10 @@
   background-color: rgb(17, 10, 14);
 }
 
+.project-image {
+  height: 35vh;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
