@@ -13,7 +13,7 @@ function Projects() {
       <Container>
         <Row>
           <Col lg={6}>
-            <Card className='text-center'>
+            <Card className='text-center' style={{ border: 'solid orangered' }}>
               <a
                 href='https://kechamberlin.github.io/ag-law/'
                 target='_blank'
@@ -38,7 +38,7 @@ function Projects() {
             </Card>
           </Col>
           <Col lg={6}>
-            <Card className='text-center'>
+            <Card className='text-center' style={{ border: 'solid orangered' }}>
               <a
                 href='https://kechamberlin.github.io/gig-dig/'
                 target='_blank'
