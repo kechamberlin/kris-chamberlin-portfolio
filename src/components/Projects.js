@@ -19,7 +19,7 @@ function Projects() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <Card.Img variant='top' src={Law} />
+                <Card.Img variant='top' src={Law} className='project-image' />
               </a>
               <Card.Body>
                 <Card.Title>AG Law</Card.Title>
@@ -44,7 +44,7 @@ function Projects() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <Card.Img variant='top' src={Gig} />
+                <Card.Img variant='top' src={Gig} className='project-image' />
               </a>
               <Card.Body>
                 <Card.Title>GigDig</Card.Title>
