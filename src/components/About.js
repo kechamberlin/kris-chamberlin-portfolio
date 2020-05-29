@@ -11,6 +11,7 @@ import Badge from 'react-bootstrap/Badge';
 function About() {
   return (
     <div className='about'>
+      <div style={{ marginTop: '10rem' }}></div>
       <Container>
         <Row>
           <Col lg={4}>
