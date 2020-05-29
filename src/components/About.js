@@ -20,7 +20,7 @@ function About() {
               style={{
                 color: 'black',
                 backgroundColor: 'gray',
-                border: 'solid red'
+                border: 'solid orangered'
               }}
             >
               <Card.Body>
@@ -66,7 +66,7 @@ function About() {
               style={{
                 color: 'black',
                 backgroundColor: 'gray',
-                border: 'solid red'
+                border: 'solid orangered'
               }}
             >
               <Card.Body>
