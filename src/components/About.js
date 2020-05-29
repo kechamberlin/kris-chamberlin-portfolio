@@ -26,6 +26,7 @@ function About() {
               <Card.Body>
                 <Image
                   className='portrait'
+                  rounded
                   src={Me}
                   fluid
                   style={{ height: '15rem', width: '15rem' }}
