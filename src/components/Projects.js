@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Law from '../images/ag-law-screenshot.png';
 import Gig from '../images/gig-dig-screenshot.png';
+import Button from 'react-bootstrap/Button';
 
 function Projects() {
   return (
@@ -13,7 +14,14 @@ function Projects() {
       <Container>
         <Row>
           <Col lg={6}>
-            <Card className='text-center' style={{ border: 'solid orangered' }}>
+            <Card
+              className='text-center'
+              style={{
+                border: 'solid orangered',
+                backgroundColor: '#333333',
+                color: 'white'
+              }}
+            >
               <a
                 href='https://kechamberlin.github.io/ag-law/'
                 target='_blank'
@@ -27,18 +35,28 @@ function Projects() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Card.Link
+                <Button
+                  style={{
+                    background: 'linear-gradient(to top, #ff8a00, #da1b60)'
+                  }}
                   href='https://github.com/kechamberlin/ag-law'
                   target='_blank'
-                  rel='noopener noreferrer'
+                  variant='danger'
                 >
                   GitHub Repository
-                </Card.Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
           <Col lg={6}>
-            <Card className='text-center' style={{ border: 'solid orangered' }}>
+            <Card
+              className='text-center'
+              style={{
+                border: 'solid orangered',
+                backgroundColor: '#333333',
+                color: 'white'
+              }}
+            >
               <a
                 href='https://kechamberlin.github.io/gig-dig/'
                 target='_blank'
@@ -52,13 +70,16 @@ function Projects() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Card.Link
+                <Button
+                  style={{
+                    background: 'linear-gradient(to top, #ff8a00, #da1b60)'
+                  }}
                   href='https://github.com/kechamberlin/gig-dig'
                   target='_blank'
-                  rel='noopener noreferrer'
+                  variant='danger'
                 >
                   GitHub Repository
-                </Card.Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
