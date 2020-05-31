@@ -22,6 +22,9 @@ function Projects() {
                 color: 'white'
               }}
             >
+              <Card.Title>
+                <h4>AG Law</h4>
+              </Card.Title>
               <a
                 href='https://kechamberlin.github.io/ag-law/'
                 target='_blank'
@@ -30,11 +33,6 @@ function Projects() {
                 <Card.Img variant='top' src={Law} className='project-image' />
               </a>
               <Card.Body>
-                <Card.Title>AG Law</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
                 <Button
                   style={{
                     background: 'linear-gradient(to top, #ff8a00, #da1b60)'
@@ -57,6 +55,9 @@ function Projects() {
                 color: 'white'
               }}
             >
+              <Card.Title>
+                <h4>GigDig</h4>
+              </Card.Title>
               <a
                 href='https://kechamberlin.github.io/gig-dig/'
                 target='_blank'
@@ -65,11 +66,6 @@ function Projects() {
                 <Card.Img variant='top' src={Gig} className='project-image' />
               </a>
               <Card.Body>
-                <Card.Title>GigDig</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
                 <Button
                   style={{
                     background: 'linear-gradient(to top, #ff8a00, #da1b60)'
