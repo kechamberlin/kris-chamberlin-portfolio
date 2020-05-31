@@ -67,7 +67,8 @@ function About() {
               style={{
                 color: 'white',
                 backgroundColor: '#333333',
-                border: 'solid orangered'
+                border: 'solid orangered',
+                marginTop: '3.75rem'
               }}
             >
               <Card.Body>
