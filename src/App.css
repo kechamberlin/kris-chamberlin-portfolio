@@ -6,6 +6,10 @@
   cursor: pointer;
 }
 
+.justify-text {
+  text-align: justify;
+}
+
 .my-navbar {
   background-color: rgb(17, 10, 14);
   position: fixed;
