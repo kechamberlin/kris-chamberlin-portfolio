@@ -74,14 +74,14 @@ function About() {
                 <Card.Title className='germania-font'>
                   <h1>About Me</h1>
                 </Card.Title>
-                <Card.Text>
+                <Card.Text className='justify-text'>
                   After graduating Magna Cum Laude with a History degree from
                   the University of California, Santa Barbara, I decided to
                   challenge myself and attended a Full-Stack Web Development
                   boot camp at UC Irvine. There, I discovered my love for
                   Front-End programming and design.
                 </Card.Text>
-                <Card.Text>
+                <Card.Text className='justify-text'>
                   When I'm not coding, I enjoy pursuing my passions for video
                   games, creative writing, attending concerts, and making
                   memories with my girlfriend Aleah.
