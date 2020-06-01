@@ -46,7 +46,7 @@ function About() {
                   target='_blank'
                   variant='danger'
                 >
-                  LinkedIn
+                  <strong>LinkedIn</strong>
                 </Button>
                 <Button
                   style={{
@@ -56,7 +56,7 @@ function About() {
                   target='_blank'
                   variant='danger'
                 >
-                  GitHub
+                  <strong>GitHub</strong>
                 </Button>
               </Card.Body>
             </Card>
@@ -68,7 +68,8 @@ function About() {
                 color: 'white',
                 backgroundColor: '#333333',
                 border: 'solid orangered',
-                marginTop: '3.75rem'
+                marginTop: '1.5rem',
+                marginBottom: '1.5rem'
               }}
             >
               <Card.Body>
@@ -80,20 +81,26 @@ function About() {
                   the University of California, Santa Barbara, I decided to
                   challenge myself and attended a Full-Stack Web Development
                   boot camp at UC Irvine. There, I discovered my love for
-                  Front-End programming and design.
+                  Front-End programming and design. Since then, I have continued
+                  my self-learning by building projects and taking courses
+                  through Udemy.
                 </Card.Text>
                 <Card.Text className='justify-text'>
                   When I'm not coding, I enjoy pursuing my passions for video
                   games, creative writing, attending concerts, and making
                   memories with my girlfriend Aleah.
                 </Card.Text>
-                <Card.Title>Skills</Card.Title>
+                <Card.Title className='germania-font'>
+                  <h2>Skills</h2>
+                </Card.Title>
                 <h4>
                   <Badge variant='danger'>React</Badge>
-                  <Badge variant='danger'>React</Badge>
-                  <Badge variant='danger'>React</Badge>
-                  <Badge variant='danger'>React</Badge>
-                  <Badge variant='danger'>React</Badge>
+                  <Badge variant='danger'>HTML</Badge>
+                  <Badge variant='danger'>CSS</Badge>
+                  <Badge variant='danger'>JavaScript</Badge>
+                  <Badge variant='danger'>Bootstrap</Badge>
+                  <Badge variant='danger'>Responsive/Mobile Design</Badge>
+                  <Badge variant='danger'>RESTful APIs</Badge>
                 </h4>
               </Card.Body>
             </Card>
