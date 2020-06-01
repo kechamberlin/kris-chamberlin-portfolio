@@ -94,13 +94,13 @@ function About() {
                   <h2>Skills</h2>
                 </Card.Title>
                 <h4>
-                  <Badge variant='danger'>React</Badge>
-                  <Badge variant='danger'>HTML</Badge>
-                  <Badge variant='danger'>CSS</Badge>
-                  <Badge variant='danger'>JavaScript</Badge>
-                  <Badge variant='danger'>Bootstrap</Badge>
-                  <Badge variant='danger'>Responsive/Mobile Design</Badge>
-                  <Badge variant='danger'>RESTful APIs</Badge>
+                  <Badge pill variant='danger'>React</Badge>
+                  <Badge pill variant='danger'>HTML</Badge>
+                  <Badge pill variant='danger'>CSS</Badge>
+                  <Badge pill variant='danger'>JavaScript</Badge>
+                  <Badge pill variant='danger'>Bootstrap</Badge>
+                  <Badge pill variant='danger'>Responsive Design</Badge>
+                  <Badge pill variant='danger'>RESTful APIs</Badge>
                 </h4>
               </Card.Body>
             </Card>
