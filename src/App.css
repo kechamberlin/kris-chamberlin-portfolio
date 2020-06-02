@@ -31,6 +31,10 @@
   padding: 3rem;
 }
 
+.about-margin-top {
+  margin-top: 7rem;
+}
+
 .projects {
   background-color: #000000ea;
   padding: 3rem;
@@ -501,8 +505,21 @@ table th {
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 436px) {
+  .my-navbar {
+    position: static;
+  }
+
   .about {
-    padding-top: 5rem;
+    padding-top: 0.1rem;
+  }
+
+  .germania-font {
+    background: linear-gradient(-90deg, #ff8a00, #da1b60);
+    background-image: linear-gradient(
+      linear-gradient(-90deg, rgb(255, 138, 0), rgb(218, 27, 96))
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
