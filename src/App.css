@@ -500,3 +500,9 @@ table th {
     justify-content: center;
   }
 }
+
+@media (max-width: 475px) {
+  .about {
+    padding-top: 5rem;
+  }
+}
