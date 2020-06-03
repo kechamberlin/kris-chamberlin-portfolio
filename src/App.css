@@ -514,7 +514,7 @@ table th {
     padding-top: 0.1rem;
   }
 
-  .germania-font {
+  .mobile {
     background: linear-gradient(-90deg, #ff8a00, #da1b60);
     background-image: linear-gradient(
       linear-gradient(-90deg, rgb(255, 138, 0), rgb(218, 27, 96))
