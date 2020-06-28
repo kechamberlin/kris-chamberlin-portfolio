@@ -82,6 +82,41 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
+
+          <Col lg={4}>
+            <Card
+              className='text-center'
+              style={{
+                border: 'solid orangered',
+                backgroundColor: '#333333',
+                color: 'white'
+              }}
+            >
+              <Card.Title>
+                <h4>NewsFlash</h4>
+              </Card.Title>
+              <a
+                href='https://kc-newsflash.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Card.Img variant='top' src={News} className='project-image' />
+              </a>
+              <Card.Body>
+                <Button
+                  style={{
+                    background: 'linear-gradient(to top, #ff8a00, #da1b60)'
+                  }}
+                  href='https://github.com/kechamberlin/news-flash'
+                  target='_blank'
+                  variant='danger'
+                >
+                  GitHub Repository
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
         </Row>
       </Container>
     </div>
