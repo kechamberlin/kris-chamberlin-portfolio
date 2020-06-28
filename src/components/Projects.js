@@ -14,7 +14,8 @@ function Projects() {
       <div className='germania-font'>Projects</div>
       <Container>
         <Row>
-          <Col lg={6}>
+
+          <Col lg={4}>
             <Card
               className='text-center'
               style={{
@@ -47,7 +48,8 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={6}>
+
+          <Col lg={4}>
             <Card
               className='text-center'
               style={{
