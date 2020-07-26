@@ -30,7 +30,7 @@ function MyNavbar() {
             to='projects'
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-70}
             duration={1000}
           >
             Projects
