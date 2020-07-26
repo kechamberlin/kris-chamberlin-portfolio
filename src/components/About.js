@@ -51,7 +51,25 @@ function About() {
                   variant='danger'
                 >
                   <strong>GitHub</strong>
-                </Button>
+                </Button> */}
+                <span className='icon-size'>
+                  <a
+                    href='https://github.com/kechamberlin'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='social-media-icon'
+                  >
+                    <i className='lni lni-linkedin-original'></i>
+                  </a>
+                  <a
+                    href='https://github.com/kechamberlin'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='social-media-icon'
+                  >
+                    <i className='lni lni-github-original'></i>
+                  </a>
+                </span>
               </Card.Body>
             </Card>
           </Col>
