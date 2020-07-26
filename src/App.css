@@ -553,3 +553,13 @@ table th {
     -webkit-text-fill-color: transparent;
   }
 }
+
+@media (max-width: 813px) {
+  .mobile {
+    font-size: 2rem;
+  }
+
+  ul {
+    font-size: 1rem;
+  }
+}
