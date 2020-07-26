@@ -70,7 +70,8 @@
 }
 
 .project-image {
-  height: 15rem;
+  min-height: 12rem;
+  /* height: 15rem; */
 }
 
 .project-image:hover {
