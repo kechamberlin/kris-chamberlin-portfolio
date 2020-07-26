@@ -32,7 +32,7 @@ function About() {
                 <Card.Text>
                   <strong>Email:</strong> kris.elliott.chamberlin@gmail.com
                 </Card.Text>
-                <Button
+                {/* <Button
                   style={{
                     background: 'linear-gradient(to top, #ff8a00, #da1b60)'
                   }}
@@ -41,8 +41,8 @@ function About() {
                   variant='danger'
                 >
                   <strong>LinkedIn</strong>
-                </Button>
-                <Button
+                </Button> */}
+                {/* <Button
                   style={{
                     background: 'linear-gradient(to top, #ff8a00, #da1b60)'
                   }}
