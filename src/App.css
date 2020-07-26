@@ -1,3 +1,32 @@
+.social-media-icon {
+  color: #ff8a00;
+  padding: 0.5rem;
+}
+
+.social-media-icon:hover {
+  background: linear-gradient(to top, #ff8a00, #da1b60);
+  background-image: linear-gradient(
+    linear-gradient(to top, rgb(255, 138, 0), rgb(218, 27, 96))
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-size {
+  font-size: 44px;
+}
+
+.repo-link {
+  color: rgba(245, 243, 243, 0.486);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.repo-link:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
