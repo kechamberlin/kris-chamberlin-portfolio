@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Law from '../images/ag-law-screenshot.png';
 import Gig from '../images/gig-dig-screenshot.png';
 import News from '../images/newsflash-screenshot.png';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 function Projects() {
   return (
@@ -32,10 +32,20 @@ function Projects() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <Card.Img variant='top' src={Law} className='project-image' />
+                <Card.Img fluid='true' variant='top' src={Law} className='project-image' />
               </a>
               <Card.Body>
-                <Button
+                <span>
+                  <a
+                    className='repo-link'
+                    href='https://github.com/kechamberlin/ag-law'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Repository <i className='lni lni-link'></i>
+                  </a>
+                </span>
+                {/* <Button
                   style={{
                     background: 'linear-gradient(to top, #ff8a00, #da1b60)'
                   }}
@@ -44,7 +54,7 @@ function Projects() {
                   variant='danger'
                 >
                   GitHub Repository
-                </Button>
+                </Button> */}
               </Card.Body>
             </Card>
           </Col>
@@ -69,7 +79,7 @@ function Projects() {
                 <Card.Img variant='top' src={Gig} className='project-image' />
               </a>
               <Card.Body>
-                <Button
+                {/* <Button
                   style={{
                     background: 'linear-gradient(to top, #ff8a00, #da1b60)'
                   }}
@@ -78,7 +88,17 @@ function Projects() {
                   variant='danger'
                 >
                   GitHub Repository
-                </Button>
+                </Button> */}
+                <span>
+                  <a
+                    className='repo-link'
+                    href='https://github.com/kechamberlin/gig-dig'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Repository <i className='lni lni-link'></i>
+                  </a>
+                </span>
               </Card.Body>
             </Card>
           </Col>
@@ -103,7 +123,7 @@ function Projects() {
                 <Card.Img variant='top' src={News} className='project-image' />
               </a>
               <Card.Body>
-                <Button
+                {/* <Button
                   style={{
                     background: 'linear-gradient(to top, #ff8a00, #da1b60)'
                   }}
@@ -112,11 +132,20 @@ function Projects() {
                   variant='danger'
                 >
                   GitHub Repository
-                </Button>
+                </Button> */}
+                <span>
+                  <a
+                    className='repo-link'
+                    href='https://github.com/kechamberlin/news-flash'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Repository <i className='lni lni-link'></i>
+                  </a>
+                </span>
               </Card.Body>
             </Card>
           </Col>
-
         </Row>
       </Container>
     </div>
