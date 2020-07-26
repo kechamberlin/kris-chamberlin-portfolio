@@ -24,13 +24,7 @@ function About() {
               }}
             >
               <Card.Body>
-                <Image
-                  className='portrait'
-                  rounded
-                  src={Me}
-                  fluid
-                  style={{ height: '15rem', width: '15rem' }}
-                />
+                <Image rounded src={Me} fluid />
                 <Card.Title>Front-End Web Developer</Card.Title>
                 <Card.Text>
                   <strong>Location:</strong> Irvine, California
