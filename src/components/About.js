@@ -75,20 +75,27 @@ function About() {
           </Col>
           <Col lg={8}>
             <Card
-              className='text-center'
+              className="text-center"
               style={{
                 color: 'white',
                 backgroundColor: '#333333',
                 border: 'solid orangered',
                 marginTop: '1.5rem',
-                marginBottom: '1.5rem'
+                marginBottom: '1.5rem',
               }}
             >
               <Card.Body>
-                <Card.Title className='germania-font'>
+                <Card.Title className="germania-font">
                   <h1>About Me</h1>
                 </Card.Title>
-                <Card.Text className='justify-text'>
+                <Card.Text className="justify-text">
+                  <strong>UPDATE 10/22/2020: </strong>I am currently in the
+                  process of doing a complete overhaul of both my projects and
+                  portfolio design. Please note that the projects listed below
+                  are "outdated," and will be replaced with modern websites/apps
+                  as soon as possible. Thank you for your patience.
+                </Card.Text>
+                <Card.Text className="justify-text">
                   After graduating Magna Cum Laude with a History degree from
                   the University of California, Santa Barbara, I decided to
                   challenge myself and attended a Full-Stack Web Development
