@@ -10,17 +10,17 @@ import Badge from 'react-bootstrap/Badge';
 
 function About() {
   return (
-    <div className='about'>
-      <div className='about-margin-top'></div>
+    <div className="about">
+      <div className="about-margin-top"></div>
       <Container>
         <Row>
           <Col lg={4}>
             <Card
-              className='text-center'
+              className="text-center"
               style={{
                 color: 'white',
                 backgroundColor: '#333333',
-                border: 'solid orangered'
+                border: 'solid orangered',
               }}
             >
               <Card.Body>
