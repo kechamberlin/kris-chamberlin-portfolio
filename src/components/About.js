@@ -97,34 +97,34 @@ function About() {
                   my self-learning by building projects and taking courses
                   through Udemy.
                 </Card.Text>
-                <Card.Text className='justify-text'>
+                <Card.Text className="justify-text">
                   When I'm not coding, I enjoy pursuing my passions for video
                   games, creative writing, attending concerts, and making
                   memories with my girlfriend Aleah.
                 </Card.Text>
-                <Card.Title className='germania-font'>
+                <Card.Title className="germania-font">
                   <h2>Skills</h2>
                 </Card.Title>
                 <h4>
-                  <Badge pill variant='danger'>
+                  <Badge pill variant="danger">
                     React
                   </Badge>
-                  <Badge pill variant='danger'>
+                  <Badge pill variant="danger">
                     HTML
                   </Badge>
-                  <Badge pill variant='danger'>
+                  <Badge pill variant="danger">
                     CSS
                   </Badge>
-                  <Badge pill variant='danger'>
+                  <Badge pill variant="danger">
                     JavaScript
                   </Badge>
-                  <Badge pill variant='danger'>
+                  <Badge pill variant="danger">
                     Bootstrap
                   </Badge>
-                  <Badge pill variant='danger'>
+                  <Badge pill variant="danger">
                     Responsive Design
                   </Badge>
-                  <Badge pill variant='danger'>
+                  <Badge pill variant="danger">
                     RESTful APIs
                   </Badge>
                 </h4>
