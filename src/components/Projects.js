@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Law from '../images/ag-law-screenshot.png';
 import Gig from '../images/gig-dig-screenshot.png';
 import News from '../images/newsflash-screenshot.png';
+import CivPic from '../images/one-more-turn-screenshot.png';
 // import Button from 'react-bootstrap/Button';
 
 function Projects() {
