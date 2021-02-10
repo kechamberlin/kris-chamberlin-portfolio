@@ -11,10 +11,58 @@ import CivPic from '../images/one-more-turn-screenshot.png';
 
 function Projects() {
   return (
-    <div className='projects'>
-      <div className='germania-font'>Projects</div>
+    <div className="projects">
+      <div className="germania-font">Projects</div>
       <Container>
         <Row>
+          <Col lg={4}>
+            <Card
+              className="text-center"
+              style={{
+                border: 'solid orangered',
+                backgroundColor: '#333333',
+                color: 'white',
+              }}
+            >
+              <Card.Title>
+                <h4>One More Turn</h4>
+              </Card.Title>
+              <a
+                href="https://onemoreturn.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Card.Img
+                  fluid="true"
+                  variant="top"
+                  src={CivPic}
+                  className="project-image"
+                />
+              </a>
+              <Card.Body>
+                <span>
+                  <a
+                    className="repo-link"
+                    href="https://github.com/kechamberlin/one-more-turn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Repository <i className="lni lni-link"></i>
+                  </a>
+                </span>
+                {/* <Button
+                  style={{
+                    background: 'linear-gradient(to top, #ff8a00, #da1b60)'
+                  }}
+                  href='https://github.com/kechamberlin/ag-law'
+                  target='_blank'
+                  variant='danger'
+                >
+                  GitHub Repository
+                </Button> */}
+              </Card.Body>
+            </Card>
+          </Col>
 
           <Col lg={4}>
             <Card
