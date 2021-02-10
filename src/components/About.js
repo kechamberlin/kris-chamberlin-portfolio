@@ -117,6 +117,9 @@ function About() {
                     React
                   </Badge>
                   <Badge pill variant="danger">
+                    Gatsby
+                  </Badge>
+                  <Badge pill variant="danger">
                     HTML
                   </Badge>
                   <Badge pill variant="danger">
@@ -133,6 +136,21 @@ function About() {
                   </Badge>
                   <Badge pill variant="danger">
                     RESTful APIs
+                  </Badge>
+                  <Badge pill variant="danger">
+                    GraphQL
+                  </Badge>
+                  <Badge pill variant="danger">
+                    Next.js
+                  </Badge>
+                  <Badge pill variant="danger">
+                    MongoDB
+                  </Badge>
+                  <Badge pill variant="danger">
+                    Sanity.io
+                  </Badge>
+                  <Badge pill variant="danger">
+                    Node
                   </Badge>
                 </h4>
               </Card.Body>
