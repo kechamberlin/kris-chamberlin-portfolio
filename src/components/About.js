@@ -102,12 +102,12 @@ function About() {
                   boot camp at UC Irvine. There, I discovered my love for
                   Front-End programming and design. Since then, I have continued
                   my self-learning by building projects and taking courses
-                  through Udemy.
+                  through Wes Bos and Udemy.
                 </Card.Text>
                 <Card.Text className="justify-text">
                   When I'm not coding, I enjoy pursuing my passions for video
                   games, creative writing, attending concerts, and making
-                  memories with my girlfriend Aleah.
+                  memories with my fiancé Aleah.
                 </Card.Text>
                 <Card.Title className="germania-font">
                   <h2>Skills</h2>
