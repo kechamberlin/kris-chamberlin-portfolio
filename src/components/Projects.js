@@ -66,32 +66,37 @@ function Projects() {
 
           <Col lg={4}>
             <Card
-              className='text-center'
+              className="text-center"
               style={{
                 border: 'solid orangered',
                 backgroundColor: '#333333',
-                color: 'white'
+                color: 'white',
               }}
             >
               <Card.Title>
                 <h4>AG Law</h4>
               </Card.Title>
               <a
-                href='https://kechamberlin.github.io/ag-law/'
-                target='_blank'
-                rel='noopener noreferrer'
+                href="https://kechamberlin.github.io/ag-law/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Card.Img fluid='true' variant='top' src={Law} className='project-image' />
+                <Card.Img
+                  fluid="true"
+                  variant="top"
+                  src={Law}
+                  className="project-image"
+                />
               </a>
               <Card.Body>
                 <span>
                   <a
-                    className='repo-link'
-                    href='https://github.com/kechamberlin/ag-law'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    className="repo-link"
+                    href="https://github.com/kechamberlin/ag-law"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Repository <i className='lni lni-link'></i>
+                    Repository <i className="lni lni-link"></i>
                   </a>
                 </span>
                 {/* <Button
@@ -110,22 +115,22 @@ function Projects() {
 
           <Col lg={4}>
             <Card
-              className='text-center'
+              className="text-center"
               style={{
                 border: 'solid orangered',
                 backgroundColor: '#333333',
-                color: 'white'
+                color: 'white',
               }}
             >
               <Card.Title>
                 <h4>GigDig</h4>
               </Card.Title>
               <a
-                href='https://kechamberlin.github.io/gig-dig/'
-                target='_blank'
-                rel='noopener noreferrer'
+                href="https://kechamberlin.github.io/gig-dig/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Card.Img variant='top' src={Gig} className='project-image' />
+                <Card.Img variant="top" src={Gig} className="project-image" />
               </a>
               <Card.Body>
                 {/* <Button
@@ -140,12 +145,12 @@ function Projects() {
                 </Button> */}
                 <span>
                   <a
-                    className='repo-link'
-                    href='https://github.com/kechamberlin/gig-dig'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    className="repo-link"
+                    href="https://github.com/kechamberlin/gig-dig"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Repository <i className='lni lni-link'></i>
+                    Repository <i className="lni lni-link"></i>
                   </a>
                 </span>
               </Card.Body>
@@ -154,22 +159,22 @@ function Projects() {
 
           <Col lg={4}>
             <Card
-              className='text-center'
+              className="text-center"
               style={{
                 border: 'solid orangered',
                 backgroundColor: '#333333',
-                color: 'white'
+                color: 'white',
               }}
             >
               <Card.Title>
                 <h4>NewsFlash</h4>
               </Card.Title>
               <a
-                href='https://kc-newsflash.netlify.app/'
-                target='_blank'
-                rel='noopener noreferrer'
+                href="https://kc-newsflash.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Card.Img variant='top' src={News} className='project-image' />
+                <Card.Img variant="top" src={News} className="project-image" />
               </a>
               <Card.Body>
                 {/* <Button
@@ -184,12 +189,12 @@ function Projects() {
                 </Button> */}
                 <span>
                   <a
-                    className='repo-link'
-                    href='https://github.com/kechamberlin/news-flash'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    className="repo-link"
+                    href="https://github.com/kechamberlin/news-flash"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Repository <i className='lni lni-link'></i>
+                    Repository <i className="lni lni-link"></i>
                   </a>
                 </span>
               </Card.Body>
